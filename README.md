@@ -1,6 +1,8 @@
 # Sales Insights Data Analysis Project using Tableau and PowerBI
-
+## Screenshots
 ![](Screenshot_23.png)
+![](Screenshot_24.png)
+![](Screenshot_25.png)
 
 ## Instructions to setup mysql on your local computer
 
@@ -42,13 +44,7 @@
 1. Formula to create norm_amount column (Currency change)
 `= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)`
 
-## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-![PowerBI Screenshot 1](https://ibb.co/nBN3Z9C)
-![PowerBI Screenshot 2](https://ibb.co/khQgGSn)
-![PowerBI Screenshot 3](https://ibb.co/jTs56fv)
 ============================
 ##### Kanak Agrawal 
 ##### 20196040
