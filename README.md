@@ -1,5 +1,7 @@
 # Sales Insights Data Analysis Project using Tableau and PowerBI
 
+![](Screenshot_23.png)
+
 ## Instructions to setup mysql on your local computer
 
 1. Install mysql on your local computer
